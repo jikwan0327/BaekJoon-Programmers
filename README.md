@@ -1,2 +1,2 @@
 # BaekJoon-Programmers
-1일1 코테 준비
+1일 1 코테 준비
