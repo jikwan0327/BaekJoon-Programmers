@@ -14,7 +14,7 @@ arr.sort((a,b) => {
     }
 })
 let answer = ""; 
-for (let point of arr) {
-answer += point[0] + " " + point[1] + "\n";
-}
+arr.map((point) => {
+    answer += point[0] + " " + point[1] + "\n";
+})
 console.log(answer);
