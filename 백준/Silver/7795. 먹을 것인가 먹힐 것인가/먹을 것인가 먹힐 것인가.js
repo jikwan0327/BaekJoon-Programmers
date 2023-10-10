@@ -27,7 +27,7 @@ function countByRange(arr, leftValue, rightValue) {
 }
 
 for(let i = 0; i < repeat; i++) {
-    let arr = input[i*3+1].split(' ').map(Number).sort((a,b) => a - b)
+    let arr = input[i*3+1].split(' ').map(Number)
     let arr2 = input[i*3+2].split(' ').map(Number).sort((a,b) => a - b)
     let cnt = 0;
     arr.forEach((res) => {
