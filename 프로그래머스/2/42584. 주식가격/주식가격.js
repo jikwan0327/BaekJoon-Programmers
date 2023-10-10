@@ -5,9 +5,7 @@ function solution(prices) {
         let result = 0;
         for(let j = i + 1; j < prices.length; j++) {
             result += 1
-            if(current > prices[j]) {
-                break;
-            }
+            if(current > prices[j]) break;
         }
         answer.push(result)
     }
