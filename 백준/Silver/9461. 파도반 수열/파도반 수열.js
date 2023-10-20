@@ -7,9 +7,8 @@ d[1] = 1;
 d[2] = 1;
 d[3] = 1;
 d[4] = 2;
-d[5] = 2;
 
-for(let j = 6; j < Math.max(...input) + 1; j++) {
+for(let j = 5; j < Math.max(...input) + 1; j++) {
     d[j] = d[j - 1] + d[j-5]
 }
 
