@@ -8,9 +8,7 @@ function solution(survey, choices) {
     survey.map((res, idx) => {
         object.set(res, object.get(res) + choices[idx] - 4)
     })
-    
-    console.log(object)
-    
+        
     if(object.get('RT') - object.get('TR') <= 0) {
         answer.push('R')
     } else {
